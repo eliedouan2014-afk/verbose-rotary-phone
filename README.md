@@ -10,3 +10,5 @@ L'outil de recherche DuckDuckGo, qui lui permet d'interroger Internet en temps r
 Oblivion fonctionne selon un principe de confinement strict. Ses privileges d'execution sur le systeme d'exploitation sont reduits au minimum requis. Cette isolation numerique est une mesure de securite essentielle concue pour bloquer les tentatives d'injections de prompts indirectes, notamment lorsqu'un site web malveillant tente de corrompre la logique de l'IA lors du scraping de donnees.
 
 Dans le flux de production, Oblivion intercepte les evenements transmis par le bus de messages. Il determine de maniere autonome s'il doit utiliser sa memoire locale ou declencher son module de recherche web pour repondre a la demande. Une fois son analyse terminee, il emet une proposition d'action qui est systematiquement transmise au reste de la Trinite pour validation avant toute diffusion finale.
+
+Pour l'instant, seul l'IA Ollama est disponible. L'acces à Internet sera ajouter plus tard alors rester dans les actualités et merci de télécharger mon premier programme en ligne GitHub.
